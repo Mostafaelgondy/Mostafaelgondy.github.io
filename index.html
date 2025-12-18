@@ -2,97 +2,357 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Mohammad Sahragard">
-    <title>Responsive Profile Page</title>
-    <!-- import font icon (fontawesome) -->
-    <script src="https://kit.fontawesome.com/b8b432d7d3.js" crossorigin="anonymous"></script>
-    <!-- import css file (style.css) -->
+    <title>Mostafa Mohamed - Flutter Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📱</text></svg>">
 </head>
 <body>
     <div class="container">
-
-        <div class="profile-card">
-            <div class="profile-header"><!-- profile header section -->
-                <div class="main-profile">
-                    <div class="profile-image"></div>
-                    <div class="profile-names">
-                        <h1 class="username">Mohammad.S</h1>
-                        <small class="page-title">Front-End developer</small>
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <div class="name-title">
+                    <h1>MOSTAFA MOHAMED</h1>
+                    <h2>Flutter Developer</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Egypt</span>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <div class="contact-label">Phone</div>
+                            <div class="contact-value">+20 01044939251</div>
+                            <div class="contact-note">WhatsApp and call</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">mostafeljindy8@gmail.com</div>
+                        </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/Mostafaelgondy" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/mostafa-eljindy-854155392" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://mostafaelgondy.github.io/" target="_blank" class="social-link">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Portfolio</span>
+                </a>
+            </div>
+        </header>
 
-            <div class="profile-body"><!-- profile body section -->
-                <div class="profile-actions">
-                    <button class="follow">Follow</button>
-                    <button class="message">Message</button>
-                    <section class="bio">
-                        <div class="bio-header">
-                            <i class="fa fa-info-circle"></i>
-                            Bio
-                        </div>
-                        <p class="bio-text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        </p>
-                    </section>
-                </div>
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Professional Summary -->
+                <section class="section">
+                    <h3 class="section-title">
+                        <i class="fas fa-user-tie"></i>
+                        PROFESSIONAL SUMMARY
+                    </h3>
+                    <div class="section-content">
+                        <p>Flutter Developer with over 2 years of hands-on experience in building high-performance, cross-platform mobile applications for Android and iOS. Specialized in developing AI-powered Flutter applications, integrating machine learning models, APIs, and intelligent automation to deliver modern, scalable solutions.</p>
+                        <p>Strong understanding of clean architecture, state management, and production-ready app development. Passionate about building professional, maintainable, and user-focused applications.</p>
+                    </div>
+                </section>
 
-                <div class="account-info">
-                    <div class="data">
-                        <div class="important-data">
-                            <section class="data-item">
-                                <h3 class="value">104</h3>
-                                <small class="title">Post</small>
-                            </section>
-                            <section class="data-item">
-                                <h3 class="value">21K</h3>
-                                <small class="title">Follower</small>
-                            </section>
-                            </section>
-                            <section class="data-item">
-                                <h3 class="value">51</h3>
-                                <small class="title">Following</small>
-                            </section>
-                        </div>
-                        <div class="other-data">
-                            <section class="data-item">
-                                <h3 class="value">41K</h3>
-                                <small class="title">Likes</small>
-                            </section>
-                            <section class="data-item">
-                                <h3 class="value">12K</h3>
-                                <small class="title">Comments</small>
-                            </section>
-                            <section class="data-item">
-                                <h3 class="value">2K</h3>
-                                <small class="title">Saved</small>
-                            </section>
+                <!-- Technical Skills -->
+                <section class="section">
+                    <h3 class="section-title">
+                        <i class="fas fa-code"></i>
+                        TECHNICAL SKILLS
+                    </h3>
+                    <div class="section-content">
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Framework & Platforms</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Flutter (Dart)</span>
+                                    <span class="skill-tag">Android</span>
+                                    <span class="skill-tag">iOS</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>State Management</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Provider</span>
+                                    <span class="skill-tag">Riverpod</span>
+                                    <span class="skill-tag">Bloc</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>Architecture</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Clean Architecture</span>
+                                    <span class="skill-tag">MVC</span>
+                                    <span class="skill-tag">MVVM</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>AI Integration</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">AI APIs integration</span>
+                                    <span class="skill-tag">Smart features using AI models</span>
+                                    <span class="skill-tag">AI-assisted automation</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>Backend & Database</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Firebase</span>
+                                    <span class="skill-tag">SQLite</span>
+                                    <span class="skill-tag">Firebase Firestore</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>Authentication</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Firebase Auth</span>
+                                    <span class="skill-tag">OAuth</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>Tools & UI/UX</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Git, GitHub</span>
+                                    <span class="skill-tag">Android Studio, VS Code</span>
+                                    <span class="skill-tag">Responsive design</span>
+                                    <span class="skill-tag">Material Design</span>
+                                    <span class="skill-tag">Custom Widgets</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </section>
 
-                    <div class="social-media">
-                        <span>Follow me in:</span>
-                        <a href="" class="media-link"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://twitter.com/MammadSahragard" class="media-link"><i class="fab fa-twitter-square"></i></a>
-                        <a href="https://www.linkedin.com/in/mohammadsahragard/" class="media-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/mammad.sahragard/" class="media-link"><i class="fab fa-instagram-square"></i></a>
-                        <a href="https://github.com/MohammadSahragard" class="media-link"><i class="fab fa-github-square"></i></a>
-                    </div>
-
-                    <div class="last-post">
-                        <div class="post-cover">
-                            <span class="last-badge">Last Post</span>
+                <!-- Languages -->
+                <section class="section">
+                    <h3 class="section-title">
+                        <i class="fas fa-language"></i>
+                        LANGUAGES
+                    </h3>
+                    <div class="section-content">
+                        <div class="languages">
+                            <div class="language-item">
+                                <div class="language-name">Arabic</div>
+                                <div class="language-level">Native</div>
+                                <div class="language-bar">
+                                    <div class="language-progress" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <div class="language-name">English</div>
+                                <div class="language-level">Good (Technical & Professional)</div>
+                                <div class="language-bar">
+                                    <div class="language-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="post-title">3D layer</h3>
-                        <button class="post-CTA">View</button>
                     </div>
-                </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Professional Experience -->
+                <section class="section">
+                    <h3 class="section-title">
+                        <i class="fas fa-briefcase"></i>
+                        PROFESSIONAL EXPERIENCE
+                    </h3>
+                    <div class="section-content">
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>Flutter Developer</h4>
+                                <div class="experience-place">Freelance / Personal Projects</div>
+                                <div class="experience-period">2023 – Present</div>
+                            </div>
+                            <ul class="experience-details">
+                                <li>Developed and deployed multiple Flutter mobile applications with clean, scalable architecture.</li>
+                                <li>Built AI-powered Flutter apps, integrating AI APIs for chatbots, smart assistants, and automated decision-making features.</li>
+                                <li>Designed reusable widgets and custom UI components to ensure consistent and professional app design.</li>
+                                <li>Implemented authentication, cloud databases, and real-time features using Firebase.</li>
+                                <li>Integrated RESTful APIs and handled data securely and efficiently.</li>
+                                <li>Optimized app performance, reduced build size, and improved responsiveness across devices.</li>
+                                <li>Collaborated with AI tools to accelerate development while maintaining production-level code quality.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Key Project Types -->
+                <section class="section">
+                    <h3 class="section-title">
+                        <i class="fas fa-project-diagram"></i>
+                        KEY PROJECT TYPES
+                    </h3>
+                    <div class="section-content">
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="project-content">
+                                    <h4>Business Management Mobile Applications</h4>
+                                    <p>Cross-platform solutions for business operations and management.</p>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <div class="project-content">
+                                    <h4>AI-Integrated Mobile Apps</h4>
+                                    <p>Chatbots, Smart Assistants and AI-powered applications.</p>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-fire"></i>
+                                </div>
+                                <div class="project-content">
+                                    <h4>Firebase-Powered Apps</h4>
+                                    <p>Applications with Auth, Firestore, Notifications and real-time features.</p>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-paint-brush"></i>
+                                </div>
+                                <div class="project-content">
+                                    <h4>Custom UI & Professional App Designs</h4>
+                                    <p>Modern, responsive UI with custom widgets and professional design.</p>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <div class="project-content">
+                                    <h4>AI-Assisted Development Workflows</h4>
+                                    <p>Flutter apps built with AI-assisted development workflows.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="section">
+                    <h3 class="section-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        EDUCATION
+                    </h3>
+                    <div class="section-content">
+                        <div class="education-item">
+                            <h4>Faculty Of AI</h4>
+                            <div class="education-details">
+                                <div class="education-degree">Undergraduate</div>
+                                <div class="education-period">Expected Graduation: 2025</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Personal Qualities -->
+                <section class="section">
+                    <h3 class="section-title">
+                        <i class="fas fa-star"></i>
+                        PERSONAL QUALITIES
+                    </h3>
+                    <div class="section-content">
+                        <div class="qualities">
+                            <div class="quality-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Strong problem-solving mindset</span>
+                            </div>
+                            <div class="quality-item">
+                                <i class="fas fa-search"></i>
+                                <span>Detail-oriented and quality-focused</span>
+                            </div>
+                            <div class="quality-item">
+                                <i class="fas fa-bolt"></i>
+                                <span>Fast learner, especially in AI and modern technologies</span>
+                            </div>
+                            <div class="quality-item">
+                                <i class="fas fa-tasks"></i>
+                                <span>Excellent self-management and time management</span>
+                            </div>
+                            <div class="quality-item">
+                                <i class="fas fa-code"></i>
+                                <span>Passionate about clean code and best practices</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
 
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© <span id="current-year"></span> Mostafa Mohamed - Flutter Developer</p>
+            <p class="footer-note">This CV website is built with HTML, CSS, and JavaScript - demonstrating frontend development skills alongside Flutter expertise.</p>
+        </footer>
     </div>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Add hover effect to project cards
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+        
+        // Add click to copy email functionality
+        const emailElement = document.querySelector('.contact-value');
+        if (emailElement && emailElement.textContent.includes('@')) {
+            emailElement.style.cursor = 'pointer';
+            emailElement.title = 'Click to copy email';
+            
+            emailElement.addEventListener('click', function() {
+                const email = this.textContent.trim();
+                navigator.clipboard.writeText(email).then(() => {
+                    const originalText = this.textContent;
+                    this.textContent = 'Copied to clipboard!';
+                    this.style.color = '#2E8B57';
+                    
+                    setTimeout(() => {
+                        this.textContent = originalText;
+                        this.style.color = '';
+                    }, 1500);
+                });
+            });
+        }
+    </script>
 </body>
 </html>
